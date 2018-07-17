@@ -20,9 +20,12 @@ class Content extends Component {
     };
 
     textChangeHandler = (event) => {
-        this.setState({text: event.target.value});
+        this.setState({text: event.target.value, textentered: ''});
     };
 
+    clickHandler = () => {
+        this.setState({textentered: this.state.text});
+    };
 
 
 
@@ -47,6 +50,7 @@ class Content extends Component {
                                 error
                             />
                             <Button
+                                onClick={this.clickHandler}
                                 id="idbutton"
                                 variant="raised"
                                 fullWidth
