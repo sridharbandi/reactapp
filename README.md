@@ -1,4 +1,4 @@
-## Simple web application developed with ReactJS and [Material-UI](https://material-ui-next.com/) to practice [Selenium](https://www.seleniumhq.org/)
+## Simple web application developed with ReactJS and [Material-UI](https://material-ui.com/) to practice [Selenium](https://www.seleniumhq.org/)
 
 ***Created by Sridhar Bandi with [create-react-app](https://github.com/facebook/create-react-app)***
 
