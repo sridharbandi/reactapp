@@ -59,7 +59,7 @@ class Content extends Component {
                             </Button>
                         </form>
                         <br />
-                        <Typography variant="body1" component="p" className={this.props.classes.textColor}>
+                        <Typography variant="body1" component="p" id="textenetered" className={this.props.classes.textColor}>
                             Text Entered: {this.state.textentered}
                         </Typography>
                     </Grid>
